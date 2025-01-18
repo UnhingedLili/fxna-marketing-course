@@ -1,0 +1,20 @@
+.App {
+  height: 100vh;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Mokoto';
+  src: url('./assets/fonts/Mokoto.ttf') format('truetype');
+}
+
+body {
+  background: radial-gradient(circle at top left, #060218, #130634, #040113, #191028);
+  margin: 0;
+  background-attachment: fixed;
+  font-family: 'Mokoto', Arial, sans-serif;
+}
+
+nav{
+  color: #5e18eb;
+}

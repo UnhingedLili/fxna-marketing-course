@@ -1,0 +1,111 @@
+.login-container {
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    height: calc(100vh - 60px); /* Subtract the actual height of the navbar */
+    padding: 0 20px; /* Optional: add some padding for responsiveness */
+    box-sizing: border-box; /* Include padding in height/width calculations */
+  }
+
+  form {
+    margin-top: 50px;
+  }
+
+  .login-input {
+    display: block;
+    margin: 10px auto;
+    padding: 3px 10px;
+    width: 250px;
+    font-size: 16px;
+  }
+
+  .login-container label {
+    text-shadow: 
+      0 0 5px rgba(255, 255, 255, 0.5), 
+      0 0 10px rgba(255, 255, 255, 0.3); /* Subtle glow effect */
+  }
+  
+  .login-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5e18eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .login-container h1{
+    font-size: 70px;
+    letter-spacing: 40px;
+    text-shadow: 
+    0 0 3px rgba(255, 255, 255, 0.5), /* Softer inner glow with reduced opacity */
+    0 0 12px rgba(255, 255, 255, 0.3);
+  }
+
+  .to-dashboard {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin: 68px;
+  }
+
+  .view-courses-link {
+    font-size: 16px;
+    color: white;
+    text-shadow: 
+    0 0 3px rgba(255, 255, 255, 0.5), 
+    0 0 6px rgba(255, 255, 255, 0.3);
+  }
+
+  /* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .login-container h1 {
+    font-size: 40px; /* Smaller heading size */
+    letter-spacing: 10px; /* Reduce letter spacing */
+  }
+
+  .login-button {
+    font-size: 14px; /* Smaller button text */
+    padding: 8px 16px; /* Adjust padding */
+  }
+
+  .login-input {
+    font-size: 14px; /* Smaller input text */
+    padding: 2px 8px; /* Adjust padding */
+  }
+
+  .to-dashboard label,
+  .view-courses-link {
+    font-size: 14px; /* Adjust text size for links */
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container h1 {
+    font-size: 30px; /* Smaller heading for very small screens */
+    letter-spacing: 5px; /* Further reduce letter spacing */
+  }
+
+  .login-input {
+    width: 100%; /* Use full width for small screens */
+  }
+
+  .login-button {
+    font-size: 12px; /* Further reduce button text size */
+    padding: 6px 12px; /* Adjust padding */
+  }
+
+  .view-courses-link {
+    font-size: 12px; /* Adjust text size */
+  }
+}

@@ -1,0 +1,69 @@
+.fxna-link {
+    color: #5e18eb; /* Text color */
+    text-decoration: none; /* Removes underline */
+    text-shadow: 0 0 1px #5e18eb, 0 0 5px #5e18eb; /* Glow effect */
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center; /* Vertically align logo and text */
+}
+
+.fxna-logo {
+  width: 28px; /* Adjust logo width */
+  height: 25px; /* Maintain aspect ratio */
+  margin-right: 5px;
+}
+
+.one-hour-marketer-title{
+  font-size: 16px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 20px;
+  letter-spacing: 7px;
+  text-shadow: 
+  0 0 5px rgba(255, 255, 255, 0.7), 
+  0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .fxna-link {
+    font-size: 24px; /* Reduce font size */
+    letter-spacing: 3px; /* Reduce letter spacing */
+    margin-left: 20px; /* Reduce margin for smaller screens */
+    margin-top: 15px; /* Adjust spacing */
+  }
+
+  .fxna-logo {
+    width: 24px; /* Adjust logo size */
+    height: 22px;
+    margin-right: 3px; /* Reduce spacing between logo and text */
+  }
+
+  .one-hour-marketer-title {
+    font-size: 14px; /* Smaller title text */
+    margin-left: 40px; /* Reduce margin for smaller screens */
+    letter-spacing: 5px; /* Adjust letter spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .fxna-link {
+    font-size: 18px; /* Further reduce font size */
+    letter-spacing: 2px; /* Further reduce letter spacing */
+    margin-left: 10px; /* Minimize margins */
+    margin-top: 10px;
+  }
+
+  .fxna-logo {
+    width: 20px; /* Adjust logo size for smaller screens */
+    height: 18px;
+  }
+
+  .one-hour-marketer-title {
+    font-size: 12px; /* Smallest title text */
+    margin-left: 20px; /* Reduce margin for narrow screens */
+    letter-spacing: 3px; /* Minimize letter spacing */
+  }
+}
